@@ -76,8 +76,9 @@ search.addEventListener("input", function(){
     let notecards=document.getElementsByClassName("notecard"); //selecting cards
     Array.from(notecards).forEach(function(element){
         let cardtxt=element.getElementsByTagName("p")[0].innerText;  //searching paragraph tag
+        let cardhead=element.getElementsByTagName("h5")[0].innerText;  //searching paragraph tag
         //base condition for searching as now we have retreived card text
-        if(cardtxt.includes(inputval)){
+        if(cardtxt.includes(inputval) || cardhead.includes(inputval)){
             element.style.display= "block";  //changing css
         }
         else{ element.style.display= "none"; }
