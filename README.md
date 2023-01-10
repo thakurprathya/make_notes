@@ -1,2 +1,4 @@
-# make_notes
-A simple Notes making website using HTML, CSS, JavaScript & BootStrap
+# NOTES
+A simple Notes taking App using HTML, CSS, JavaScript & BootStrap
+
+App Link : https://thakurprathya.github.io/make_notes/
